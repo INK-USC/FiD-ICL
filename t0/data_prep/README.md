@@ -2,6 +2,7 @@
 
 ```bash
 python download_data.py 0 660
+python download_eval_data.py
 ```
 
 Because there are 660 tasks registered in huggingface datasets `bigscience/P3`, "0 660" means the start and end index.

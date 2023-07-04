@@ -11,6 +11,7 @@ FiD-ICL is inspired by [fusion-in-decoder models](https://github.com/facebookres
 - [Get Data](#get-data)
 - [ICL Meta-Training](#icl-meta-training) 
 - [ICL Meta-Testing](#icl-meta-testing)
+- [Other Baselines](#other-baselines)
 - [Download Checkpoints](#download-checkpoints)
 - [Contact Us](#contact-us)
 
