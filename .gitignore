@@ -1,0 +1,7 @@
+*/data/
+*/data_small/
+*/run_configs/
+*/eval_results/
+
+.pytest_cache
+__pycache__
