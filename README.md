@@ -75,28 +75,18 @@ Download the T-Few repository (https://github.com/r-three/t-few); Copy and paste
 
 ### Download Checkpoints
 
-Checkpoints are uploaded to huggingface hub. Their model identifier are listed in the table below.
+Checkpoints are uploaded to huggingface hub. Their model identifier are listed in a table in `CHECKPOINTS.md` ([link](CHECKPOINTS.md)).
 
-| Zero-shot | Concat-ICL | FiD-ICL | Ensemble-ICL |
-| :---      | --- | --- | ---: |
-|`google/t5-base-lm-adapt`|
-|`qinyuany/my-t0-base`|
-|`google/t5-large-lm-adapt`|
-|`qinyuany/my-t0-large`|
-|`google/t5-xl-lm-adapt`| OOM |`qinyuany/fid-icl-t5-lm-xl` | - |
-|`qinyuany/my-t0-3b`| OOM | - | `qinyuany/ensemble-icl-t0-3b`|
-
-You can preview the models on huggingface hub. For example, if the identifier is `qinyuany/my-t0-3b` then the webpage is [https://huggingface.co/qinyuany/my-t0-3b](https://huggingface.co/qinyuany/my-t0-3b)
+You can find these models on huggingface hub. If the identifier is `qinyuany/my-t0-3b` then the webpage is [https://huggingface.co/qinyuany/my-t0-3b](https://huggingface.co/qinyuany/my-t0-3b)
 
 To use these models, please run the following:
 
 ```python
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
-s
-key = "qinyuany/my-t0-base" # or other model identifier
+identifier = "qinyuany/my-t0-base" # or other model identifier
 
-tokenizer = AutoTokenizer.from_pretrained(key)
-model = AutoModelForSeq2SeqLM.from_pretrained(key)
+tokenizer = AutoTokenizer.from_pretrained(identifier)
+model = AutoModelForSeq2SeqLM.from_pretrained(identifier)
 
 ```
 ### Contact Us
