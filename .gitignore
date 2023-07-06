@@ -2,7 +2,8 @@
 */data_small/
 */data_eval/
 */run_configs/
-*/eval_results/
+*/eval_logs/
+*/checkpoints/
 
 .pytest_cache
 __pycache__

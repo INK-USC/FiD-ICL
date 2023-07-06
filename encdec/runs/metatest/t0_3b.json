@@ -1,0 +1,11 @@
+{
+    "model": "qinyuany/my-t0-3b",
+    "data_dir": "../t0/data_eval",
+    "out_dir": "eval_logs/t0_eval/my-t0-3b",
+    "max_input_length": 1024,
+    "max_output_length": 256,
+    "eval_batch_size": 16,
+    "add_special_tokens": false,
+    "loss_avg_mode": "instance_sum",
+    "task": "t0_template"
+}

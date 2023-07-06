@@ -1,0 +1,155 @@
+FID_METADATA = {
+    "super_glue/wsc.fixed":[
+       "GPT-3 Style",
+       "I think they mean",
+       "Who or what is/are",
+       "by p they mean",
+       "does p stand for",
+       "does the pronoun refer to",
+       "in other words",
+       "p is/are r",
+       "replaced with",
+       "the pronoun refers to"
+    ],
+    "winogrande/winogrande_xl":[
+       "Replace",
+       "does underscore refer to",
+       "fill in the blank",
+       "stand for",
+       "underscore refer to"
+    ],
+    "super_glue/cb":[
+       "GPT-3 style",
+       "MNLI crowdsource",
+       "always/sometimes/never",
+       "based on the previous passage",
+       "can we infer",
+       "claim true/false/inconclusive",
+       "consider always/sometimes/never",
+       "does it follow that",
+       "does this imply",
+       "guaranteed true",
+       "guaranteed/possible/impossible",
+       "justified in saying",
+       "must be true",
+       "should assume",
+       "take the following as truth"
+    ],
+    "super_glue/rte":[
+       "GPT-3 style",
+       "MNLI crowdsource",
+       "based on the previous passage",
+       "can we infer",
+       "does it follow that",
+       "does this imply",
+       "guaranteed true",
+       "justified in saying",
+       "must be true",
+       "should assume"
+    ],
+    "super_glue/copa":[
+       "C1 or C2? premise, so/because…",
+       "best_option",
+       "cause_effect",
+       "choose",
+       "exercise",
+       "i_am_hesitating",
+       "more likely",
+       "plausible_alternatives",
+      # the following four prompts are only applicable to either cause or effect...
+      #  "…As a result, C1 or C2?",
+      #  "…What could happen next, C1 or C2?",
+      #  "…which may be caused by",
+      #  "…why? C1 or C2"
+    ],
+    "super_glue/wic":[
+       "GPT-3-prompt",
+       "GPT-3-prompt-with-label",
+       "affirmation_true_or_false",
+       "grammar_homework",
+       "polysemous",
+       "question-context",
+       "question-context-meaning",
+       "question-context-meaning-with-label",
+       "same_sense",
+       "similar-sense"
+    ],
+    "story_cloze/2016":[
+       "Answer Given options",
+       "Choose Story Ending",
+       "Movie What Happens Next",
+       "Novel Correct Ending",
+       "Story Continuation and Options"
+    ],
+    "anli-r1":[
+       "GPT-3 style",
+       "MNLI crowdsource",
+       "always/sometimes/never",
+       "based on the previous passage",
+       "can we infer",
+       "claim true/false/inconclusive",
+       "consider always/sometimes/never",
+       "does it follow that",
+       "does this imply",
+       "guaranteed true",
+       "guaranteed/possible/impossible",
+       "justified in saying",
+       "must be true",
+       "should assume",
+       "take the following as truth"
+    ],
+    "anli-r2":[
+       "GPT-3 style",
+       "MNLI crowdsource",
+       "always/sometimes/never",
+       "based on the previous passage",
+       "can we infer",
+       "claim true/false/inconclusive",
+       "consider always/sometimes/never",
+       "does it follow that",
+       "does this imply",
+       "guaranteed true",
+       "guaranteed/possible/impossible",
+       "justified in saying",
+       "must be true",
+       "should assume",
+       "take the following as truth"
+    ],
+    "anli-r3":[
+       "GPT-3 style",
+       "MNLI crowdsource",
+       "always/sometimes/never",
+       "based on the previous passage",
+       "can we infer",
+       "claim true/false/inconclusive",
+       "consider always/sometimes/never",
+       "does it follow that",
+       "does this imply",
+       "guaranteed true",
+       "guaranteed/possible/impossible",
+       "justified in saying",
+       "must be true",
+       "should assume",
+       "take the following as truth"
+    ],
+   "hellaswag":[
+       "Predict ending with hint",
+       "Randomized prompts template",
+       "complete_first_then",
+       "if_begins_how_continues"
+    ]
+ }
+
+N_OPTIONS = {
+   "super_glue/wsc.fixed": 2,
+   "winogrande/winogrande_xl": 2,
+   "super_glue/cb": 3,
+   "super_glue/rte": 2,
+   "super_glue/copa": 2,
+   "super_glue/wic": 2,
+   "story_cloze/2016": 2,
+   "anli-r1": 3,
+   "anli-r2": 3,
+   "anli-r3": 3,
+   "hellaswag": 4
+ }

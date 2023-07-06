@@ -7,15 +7,15 @@ FiD-ICL is inspired by [fusion-in-decoder models](https://github.com/facebookres
 
 
 ### Quick Links
-- [Configure Environment](#configure-environment)
-- [Get Data](#get-data)
+- [Environment](#environment)
+- [Data](#data)
 - [ICL Meta-Training](#icl-meta-training) 
 - [ICL Meta-Testing](#icl-meta-testing)
 - [Other Baselines](#other-baselines)
 - [Download Checkpoints](#download-checkpoints)
 - [Contact Us](#contact-us)
 
-### Configure Environment
+### Environment
 
 We have included `requirements.txt` in this repository. Please run the following:
 ```bash
@@ -25,7 +25,7 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 pip install -r requirements.txt
 ```
 
-### Get Data
+### Data
 
 We use the following resources in our study:
 * __Public Pool of Prompts (P3)__: We use the P3 data as meta-train and meta-test set.
@@ -35,35 +35,60 @@ Please check out the instructions to download the data in `t0/data_prep/README.m
 
 ### ICL Meta-Training
 
-TODO :face_with_head_bandage:
+If you only want to download the resulting model and reproduce the evaluation part, you don't need to run meta-training because model checkpoints are ported to huggingface hub. Go to [ICL Meta-Testing](#icl-meta-testing) below.
+
+The following script will train a FiD-ICL model initializing the model with T5-LM-XL (This is the best performing ICL model in the paper).
+```bash
+cd encdec
+python run_fid.py -c runs/metatrain/fid_t5_xl.json
+```
+
+Use `run_icl.py` and `run_ensemble.py` to meta-train a model with Concat-ICL and Ensemble-ICL.
 
 ### ICL Meta-Testing
 
-TODO :face_with_head_bandage:
+The following script will evaluate the FiD-ICL trained from T5-LM-XL.
+```bash
+python run_fid_eval.py -c runs/metatest/fid_t5_xl.json 
+```
 
 ### Other Baselines
 
-TODO :face_with_head_bandage:
-
 We include example scripts for running the baselines in this repository.
-* Zero-shot Evaluation
-* Simple FT
+
+#### Zero-shot Evaluation (Re-trained T0 models)
+```
+# cd encdec
+python run_t0eval.py -c runs/metatest/t0_3b.json
+# results will be in eval_logs/t0_eval/my-t0-3b/results_t0_template.csv
+```
+
+#### Simple FT
+```
+# cd encdec
+python run_t0fewshot.py -c runs/metatest/ft_t0_3b.json
+```
+
+#### T-Few FT
+The only difference in experiment setting between us and the original T-Few paper is that we control the number of shots to be 16.
+Download the T-Few repository (https://github.com/r-three/t-few); Copy and paste the data files in `t0/data_fewshot` to T-Few directory and change the data path in T-Few code.
 
 ### Download Checkpoints
 
-Checkpoints are uploaded to huggingface hub. Their model identifier are listed in the table below. Will add Few-shot Learning
+Checkpoints are uploaded to huggingface hub. Their model identifier are listed in the table below.
 
-| Zero-shot | 
-| :---      | 
+| Zero-shot | Concat-ICL | FiD-ICL | Ensemble-ICL |
+| :---      | --- | --- | ---: |
 |`google/t5-base-lm-adapt`|
 |`qinyuany/my-t0-base`|
 |`google/t5-large-lm-adapt`|
 |`qinyuany/my-t0-large`|
-|`google/t5-xl-lm-adapt`|
-|`qinyuany/my-t0-3b`|
+|`google/t5-xl-lm-adapt`| OOM |`qinyuany/fid-icl-t5-lm-xl` | - |
+|`qinyuany/my-t0-3b`| OOM | - | `qinyuany/ensemble-icl-t0-3b`|
 
+You can preview the models on huggingface hub. For example, if the identifier is `qinyuany/my-t0-3b` then the webpage is [https://huggingface.co/qinyuany/my-t0-3b](https://huggingface.co/qinyuany/my-t0-3b)
 
-To run these models, please run the following:
+To use these models, please run the following:
 
 ```python
 from transformers import AutoModelForSeq2SeqLM, AutoTokenizer
@@ -83,3 +108,5 @@ If you have any question, please submit an issue, or reach out to Qinyuan (qinyu
 * Clean the code and update meta-training, meta-testing section in README.
 * Upload all checkpoints
 * Upload poster and video, update links to this repo.
+* Find the code to download and process story_cloze data.
+* Make a notebook about how to load data and how to run ICL.
