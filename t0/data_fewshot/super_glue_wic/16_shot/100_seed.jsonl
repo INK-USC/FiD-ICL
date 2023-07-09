@@ -1,0 +1,16 @@
+{"word": "pack", "sentence1": "You had better pack your swollen ankle with ice.", "sentence2": "Pack the faucet.", "start1": 15, "start2": 0, "end1": 19, "end2": 4, "idx": 339, "label": 0}
+{"word": "yes", "sentence1": "I was hoping for a yes.", "sentence2": "Was that a yes?", "start1": 19, "start2": 11, "end1": 22, "end2": 14, "idx": 3778, "label": 1}
+{"word": "voice", "sentence1": "The noisy voice of the waterfall.", "sentence2": "The incessant voices of the artillery.", "start1": 10, "start2": 14, "end1": 15, "end2": 20, "idx": 4330, "label": 1}
+{"word": "go", "sentence1": "Messages must go through diplomatic channels.", "sentence2": "We should go farther in this matter.", "start1": 14, "start2": 10, "end1": 16, "end2": 12, "idx": 4284, "label": 1}
+{"word": "keep", "sentence1": "These potatoes keep for a long time.", "sentence2": "She keeps an apartment in Paris for her shopping trips.", "start1": 15, "start2": 4, "end1": 19, "end2": 9, "idx": 2504, "label": 0}
+{"word": "property", "sentence1": "Charm is his most endearing property.", "sentence2": "A study of the physical properties of atomic particles.", "start1": 28, "start2": 24, "end1": 36, "end2": 34, "idx": 3706, "label": 1}
+{"word": "buy", "sentence1": "I'm going to buy my father something nice for his birthday.", "sentence2": "This sum will buy you a ride on the train.", "start1": 13, "start2": 14, "end1": 16, "end2": 17, "idx": 4894, "label": 0}
+{"word": "eyeball", "sentence1": "A good cook can often just eyeball the correct quantities of ingredients.", "sentence2": "Each geometric construction must be exact; eyeballing it and getting close does not count.", "start1": 27, "start2": 43, "end1": 34, "end2": 53, "idx": 616, "label": 1}
+{"word": "make", "sentence1": "Make a mess in one's office.", "sentence2": "She'll make a fine president.", "start1": 0, "start2": 7, "end1": 4, "end2": 11, "idx": 4970, "label": 0}
+{"word": "pass", "sentence1": "He had a pass for three days.", "sentence2": "It was not possible to complete the computation in a single pass.", "start1": 9, "start2": 60, "end1": 13, "end2": 64, "idx": 959, "label": 0}
+{"word": "anger", "sentence1": "You anger too easily.", "sentence2": "He angers easily.", "start1": 4, "start2": 3, "end1": 9, "end2": 9, "idx": 4613, "label": 1}
+{"word": "charge", "sentence1": "Can I charge this purchase?", "sentence2": "The suspect was charged with murdering his wife.", "start1": 6, "start2": 16, "end1": 12, "end2": 23, "idx": 5416, "label": 0}
+{"word": "make", "sentence1": "Make one's way into the forest.", "sentence2": "Make yourself clear.", "start1": 0, "start2": 0, "end1": 4, "end2": 4, "idx": 2955, "label": 0}
+{"word": "write", "sentence1": "Please write to me every week.", "sentence2": "Your son has been writing on the wall.", "start1": 7, "start2": 18, "end1": 12, "end2": 25, "idx": 310, "label": 0}
+{"word": "face", "sentence1": "He washed his face.", "sentence2": "She has a pretty face.", "start1": 14, "start2": 17, "end1": 18, "end2": 21, "idx": 995, "label": 1}
+{"word": "pull", "sentence1": "Pull a horse.", "sentence2": "You'll be sent home if you pull another stunt like that.", "start1": 0, "start2": 27, "end1": 4, "end2": 31, "idx": 269, "label": 0}

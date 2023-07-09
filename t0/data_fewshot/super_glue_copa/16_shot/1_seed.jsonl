@@ -1,0 +1,16 @@
+{"premise": "The man uncovered incriminating evidence against his enemy.", "choice1": "The man avoided his enemy.", "choice2": "The man blackmailed his enemy.", "question": "effect", "idx": 223, "label": 1}
+{"premise": "The man woke up with a toothache.", "choice1": "He missed an appointment with the dentist.", "choice2": "He made an appointment with the dentist.", "question": "effect", "idx": 207, "label": 1}
+{"premise": "I scrubbed the stain on the floor.", "choice1": "I got rid of the stain.", "choice2": "I got dirt on the floor.", "question": "effect", "idx": 291, "label": 0}
+{"premise": "The girl performed in a dance recital.", "choice1": "Her parents showed her how to dance.", "choice2": "Her parents came to watch the recital.", "question": "effect", "idx": 188, "label": 1}
+{"premise": "The host served dinner to his guests.", "choice1": "His guests were gracious.", "choice2": "His guests went hungry.", "question": "effect", "idx": 172, "label": 0}
+{"premise": "The family postponed the barbeque.", "choice1": "The forecast called for storms.", "choice2": "It was a holiday weekend.", "question": "cause", "idx": 242, "label": 0}
+{"premise": "The girl was angry with her friend.", "choice1": "The girl spread a rumor about her friend.", "choice2": "The girl told a secret to her friend.", "question": "effect", "idx": 78, "label": 0}
+{"premise": "The car looked filthy.", "choice1": "The owner took it to the car wash.", "choice2": "He owner took it in for a paint job.", "question": "effect", "idx": 227, "label": 0}
+{"premise": "The boy giggled uncontrollably.", "choice1": "His brother tickled him.", "choice2": "His brother kicked him.", "question": "cause", "idx": 324, "label": 0}
+{"premise": "The politician lost the election.", "choice1": "He ran negative campaign ads.", "choice2": "No one voted for him.", "question": "cause", "idx": 5, "label": 1}
+{"premise": "The window was opaque.", "choice1": "The glass was stained.", "choice2": "The blinds were open.", "question": "cause", "idx": 92, "label": 0}
+{"premise": "The friends' debate dragged on interminably.", "choice1": "The friends saw eye to eye.", "choice2": "The friends were splitting hairs.", "question": "cause", "idx": 29, "label": 1}
+{"premise": "The father put his daughter in her stroller.", "choice1": "She learned to walk.", "choice2": "He was tired of carrying her.", "question": "cause", "idx": 366, "label": 1}
+{"premise": "The DJ turned the music on.", "choice1": "People left the party.", "choice2": "People began to dance.", "question": "effect", "idx": 328, "label": 1}
+{"premise": "The smoke alarm went off.", "choice1": "I lit a candle.", "choice2": "I burnt my dinner.", "question": "cause", "idx": 197, "label": 1}
+{"premise": "The woman exaggerated the details of the story.", "choice1": "She wanted attention.", "choice2": "She felt shy.", "question": "cause", "idx": 371, "label": 0}

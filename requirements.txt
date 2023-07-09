@@ -1,0 +1,6 @@
+tqdm
+pandas
+transformers==4.21.0
+datasets==2.8.0
+promptsource
+protobuf==3.20

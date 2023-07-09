@@ -1,0 +1,12 @@
+{
+    "model": "qinyuany/fid-icl-t5-lm-xl",
+    "data_dir": "../t0/data_eval",
+    "out_dir": "eval_logs/fid_eval/fid-t5-lm-xl/",
+    "max_input_length": 256,
+    "max_output_length": 64,
+    "eval_batch_size": 32,
+    "add_special_tokens": false,
+    "loss_avg_mode": "instance_sum",
+    "task": "t0_template",
+    "fid_special_tokens": true
+}

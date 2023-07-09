@@ -1,0 +1,16 @@
+{"sentence": "The lecture failed to convert him, but the essay convinced him to change, as the _ was unconvincing.", "option1": "lecture", "option2": "essay", "answer": "1", "label": 0, "idx": 15666}
+{"sentence": "Mike went for a hike in the forest and not the beach because he thought his new boots would perform well in the _ .", "option1": "forest", "option2": "beach", "answer": "1", "label": 0, "idx": 16394}
+{"sentence": "Ian had a beautiful aquarium full of fish but Michael did not because _ loved collecting exotic fish.", "option1": "Ian", "option2": "Michael", "answer": "1", "label": 0, "idx": 16538}
+{"sentence": "The man put ice rather than lava on his lips, because the _ made his lips feel cold.", "option1": "lava", "option2": "ice", "answer": "2", "label": 1, "idx": 12674}
+{"sentence": "The mad scientist poured acid from the test tube into the beaker until the _ was empty.", "option1": "beaker", "option2": "test tube", "answer": "2", "label": 1, "idx": 24163}
+{"sentence": "In the stock market, Brian struggled trying to sell off stocks to Matthew, because _ lacked knowledge of the market.", "option1": "Brian", "option2": "Matthew", "answer": "1", "label": 0, "idx": 26318}
+{"sentence": "Felicia was quitely reading a book in a nook of the library when Sarah came over to tell them closing time was soon. The patron was _ .", "option1": "Felicia", "option2": "Sarah", "answer": "1", "label": 0, "idx": 11091}
+{"sentence": "Mary had a problem with shopping for healthy food and bought all candy. So she was having the _ delivered.", "option1": "candy", "option2": "food", "answer": "2", "label": 1, "idx": 14980}
+{"sentence": "The shirt had been touched by the bleach but the pants had not because the _ had white splotches.", "option1": "pants", "option2": "shirt", "answer": "2", "label": 1, "idx": 31776}
+{"sentence": "I tried to get rid of my sofa at the dump but the _ was too cumbersome to maneuver.", "option1": "sofa", "option2": "dump", "answer": "1", "label": 0, "idx": 20025}
+{"sentence": "Laura is teaching Tanya how to fish for catfish since _ is an experienced fisherman.", "option1": "Laura", "option2": "Tanya", "answer": "1", "label": 0, "idx": 36793}
+{"sentence": "The engineer created robots to replace the algorithms at solving the puzzle. The _ were not advanced enough.", "option1": "algorithms", "option2": "robots", "answer": "1", "label": 0, "idx": 30407}
+{"sentence": "He received a gift that he liked more than the old toy because the _ was more cheap.", "option1": "gift", "option2": "toy", "answer": "2", "label": 1, "idx": 1579}
+{"sentence": "Brian but not Jeffrey came down with mono because _ would not kiss every girl he saw.", "option1": "Brian", "option2": "Jeffrey", "answer": "2", "label": 1, "idx": 7268}
+{"sentence": "Jennifer told Maria that their relationship being friends was no longer in their future, _ doesn't understand friendships.", "option1": "Jennifer", "option2": "Maria", "answer": "2", "label": 1, "idx": 36879}
+{"sentence": "Justin was very concerned about the environment Ian wasn't that interested. _ cut a lot of trees on their land.", "option1": "Justin", "option2": "Ian", "answer": "2", "label": 1, "idx": 1376}

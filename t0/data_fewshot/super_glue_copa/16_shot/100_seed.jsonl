@@ -1,0 +1,16 @@
+{"premise": "The man took a shower.", "choice1": "He was sweaty from working out.", "choice2": "He opened a new bar of soap.", "question": "cause", "idx": 296, "label": 0}
+{"premise": "The man's eye became infected.", "choice1": "He went blind.", "choice2": "He put on glasses.", "question": "effect", "idx": 43, "label": 0}
+{"premise": "The man broke his toe.", "choice1": "He got a hole in his sock.", "choice2": "He dropped a hammer on his foot.", "question": "cause", "idx": 236, "label": 1}
+{"premise": "The woman felt compelled to help someone in need.", "choice1": "She donated blood.", "choice2": "She wrote a poem.", "question": "effect", "idx": 56, "label": 0}
+{"premise": "My daughter suffered an allergy attack.", "choice1": "I encouraged her to take deep breaths.", "choice2": "I took her to the emergency room.", "question": "effect", "idx": 285, "label": 1}
+{"premise": "The man took notice of the woman.", "choice1": "He caught a whiff of her perfume.", "choice2": "He had his back turned to her.", "question": "cause", "idx": 272, "label": 0}
+{"premise": "The woman sensed a pleasant smell.", "choice1": "She remembered to take her medication.", "choice2": "She was reminded of her childhood.", "question": "effect", "idx": 97, "label": 1}
+{"premise": "The city re-elected the mayor.", "choice1": "The city cut its budget.", "choice2": "The mayor fulfilled his promises.", "question": "cause", "idx": 370, "label": 1}
+{"premise": "The doctors amputated the patient's leg.", "choice1": "It was badly bruised.", "choice2": "It was severely infected.", "question": "cause", "idx": 314, "label": 1}
+{"premise": "I wanted to lighten the mood of the conversation.", "choice1": "I remained quiet.", "choice2": "I told a joke.", "question": "effect", "idx": 235, "label": 1}
+{"premise": "The dust came off the desk.", "choice1": "I wiped the desk with a cloth.", "choice2": "I removed the books from the desk.", "question": "cause", "idx": 169, "label": 0}
+{"premise": "We found empty seats in the theatre.", "choice1": "The film began.", "choice2": "We sat down.", "question": "effect", "idx": 151, "label": 1}
+{"premise": "The boy climbed the tree.", "choice1": "A cat got stuck in the tree.", "choice2": "A bird built a nest in the tree.", "question": "cause", "idx": 173, "label": 0}
+{"premise": "The vehicles travelled slowly.", "choice1": "It was cloudy.", "choice2": "It was foggy.", "question": "cause", "idx": 248, "label": 1}
+{"premise": "The parents left their children with a babysitter.", "choice1": "Their youngest child started attending preschool.", "choice2": "They made plans to celebrate their anniversary.", "question": "cause", "idx": 127, "label": 1}
+{"premise": "The woman felt ashamed of scar on her face.", "choice1": "She explained the scar to strangers.", "choice2": "She hid the scar with makeup.", "question": "effect", "idx": 184, "label": 1}

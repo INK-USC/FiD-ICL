@@ -1,0 +1,22 @@
+{
+    "model": "qinyuany/my-t0-3b",
+    "data_dir": "../t0/data_small",
+    "out_dir": "checkpoints/ensemble/t0-3b",
+    "optimizer": "adamw",
+    "max_input_length": 256,
+    "max_output_length": 64,
+    "lr": 0.0001,
+    "weight_decay": 0.01,
+    "do_train": true,
+    "do_valid": false,
+    "do_eval": false,
+    "num_training_steps": 10000,
+    "warmup_steps": 600,
+    "save_period": 2000,
+    "test_k": 1,
+    "batch_size": 16,
+    "gradient_accumulation_steps": 1,
+    "save": true,
+    "train_with_generation_loss": true,
+    "fid_special_tokens": true
+}
