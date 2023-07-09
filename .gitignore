@@ -4,6 +4,7 @@
 */run_configs/
 */eval_logs/
 */checkpoints/
+*/tensorized/
 
 .pytest_cache
 __pycache__

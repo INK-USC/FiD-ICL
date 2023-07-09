@@ -43,7 +43,7 @@ cd encdec
 python run_fid.py -c runs/metatrain/fid_t5_xl.json
 ```
 
-Use `run_icl.py` and `run_ensemble.py` to meta-train a model with Concat-ICL and Ensemble-ICL.
+Use `run_icl.py` and `run_ensemble.py` to meta-train a model with Concat-ICL and Ensemble-ICL. There are sample configurations in the `runs/metatrain` directory.
 
 ### ICL Meta-Testing
 
@@ -51,6 +51,8 @@ The following script will evaluate the FiD-ICL trained from T5-LM-XL.
 ```bash
 python run_fid_eval.py -c runs/metatest/fid_t5_xl.json 
 ```
+_
+Similarly, use `run_icl_eval.py` and `run_ensemble_eval.py` to meta-test a model trained with Concat-ICL and Ensemble-ICL. There are sample configurations in the `runs/metatest` directory.
 
 ### Other Baselines
 
@@ -58,14 +60,12 @@ We include example scripts for running the baselines in this repository.
 
 #### Zero-shot Evaluation (Re-trained T0 models)
 ```
-# cd encdec
 python run_t0eval.py -c runs/metatest/t0_3b.json
 # results will be in eval_logs/t0_eval/my-t0-3b/results_t0_template.csv
 ```
 
 #### Simple FT
 ```
-# cd encdec
 python run_t0fewshot.py -c runs/metatest/ft_t0_3b.json
 ```
 
@@ -92,11 +92,3 @@ model = AutoModelForSeq2SeqLM.from_pretrained(identifier)
 ### Contact Us
 
 If you have any question, please submit an issue, or reach out to Qinyuan (qinyuany@usc.edu).
-
-### Todos
-* Update the bibkey once FiD-ICL is included in ACL Anthology.
-* Clean the code and update meta-training, meta-testing section in README.
-* Upload all checkpoints
-* Upload poster and video, update links to this repo.
-* Find the code to download and process story_cloze data.
-* Make a notebook about how to load data and how to run ICL.
