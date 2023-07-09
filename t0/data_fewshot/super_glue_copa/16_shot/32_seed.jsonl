@@ -1,0 +1,16 @@
+{"premise": "The boy felt homesick.", "choice1": "He went away to camp.", "choice2": "He bickered with his sister.", "question": "cause", "idx": 193, "label": 0}
+{"premise": "The fortune teller's revelations were convincing.", "choice1": "She received many returning customers.", "choice2": "Many customers asked for refunds.", "question": "effect", "idx": 214, "label": 0}
+{"premise": "The woman fanned herself with her hand.", "choice1": "She installed the air conditioner in the room.", "choice2": "The air conditioner in the room broke.", "question": "cause", "idx": 313, "label": 1}
+{"premise": "The father put his daughter in her stroller.", "choice1": "She learned to walk.", "choice2": "He was tired of carrying her.", "question": "cause", "idx": 366, "label": 1}
+{"premise": "The navy bombed the ship.", "choice1": "The ship crashed into the pier.", "choice2": "The ship's debris sunk in the sea.", "question": "effect", "idx": 145, "label": 1}
+{"premise": "The boy's hands were shaking.", "choice1": "He planned to ask the girl out.", "choice2": "His palms were cold and sweaty.", "question": "cause", "idx": 118, "label": 0}
+{"premise": "The woman wrote a check to the gas company.", "choice1": "She preferred paying by cash.", "choice2": "She received her monthly bill.", "question": "cause", "idx": 300, "label": 1}
+{"premise": "Air leaked out of the beach ball.", "choice1": "It was inflated.", "choice2": "There was a hole in it.", "question": "cause", "idx": 243, "label": 1}
+{"premise": "The hospital sent the patient home.", "choice1": "The patient's symptoms cleared up.", "choice2": "The patient's family visited him.", "question": "cause", "idx": 149, "label": 0}
+{"premise": "The army surrendered the battle.", "choice1": "They were outnumbered.", "choice2": "They stormed the city.", "question": "cause", "idx": 144, "label": 0}
+{"premise": "The parents forbade their children from watching the movie. ", "choice1": "The movie was rated R.", "choice2": "The movie was animated.", "question": "cause", "idx": 209, "label": 0}
+{"premise": "The school principal implemented a dress code.", "choice1": "Students protested the decision.", "choice2": "Students were expelled from school.", "question": "effect", "idx": 233, "label": 0}
+{"premise": "The climbers reached the peak of the mountain.", "choice1": "They encountered an avalanche.", "choice2": "They congratulated each other.", "question": "effect", "idx": 212, "label": 1}
+{"premise": "The man signed the document.", "choice1": "The transaction was voided.", "choice2": "The transaction became official.", "question": "effect", "idx": 54, "label": 1}
+{"premise": "The boy murmured his reply to his mother.", "choice1": "His mother told him to whisper.", "choice2": "His mother told him to speak up.", "question": "effect", "idx": 195, "label": 1}
+{"premise": "I ironed my shirt.", "choice1": "It was clean.", "choice2": "It was wrinkled.", "question": "cause", "idx": 146, "label": 1}

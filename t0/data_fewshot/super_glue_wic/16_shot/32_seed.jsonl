@@ -1,0 +1,16 @@
+{"word": "answer", "sentence1": "Answer the riddle.", "sentence2": "Answer a question.", "start1": 0, "start2": 0, "end1": 6, "end2": 6, "idx": 465, "label": 1}
+{"word": "call", "sentence1": "The mayor likes to call on some of the prominent citizens.", "sentence2": "She called her children lazy and ungrateful.", "start1": 19, "start2": 4, "end1": 23, "end2": 10, "idx": 2890, "label": 0}
+{"word": "stuff", "sentence1": "There's good stuff in that book.", "sentence2": "The stuff of heros.", "start1": 13, "start2": 4, "end1": 18, "end2": 9, "idx": 1533, "label": 0}
+{"word": "par", "sentence1": "Par for this course is 72.", "sentence2": "On a par with the best.", "start1": 0, "start2": 5, "end1": 3, "end2": 8, "idx": 2825, "label": 0}
+{"word": "wall", "sentence1": "The wall followed the road.", "sentence2": "Stomach walls.", "start1": 4, "start2": 8, "end1": 8, "end2": 13, "idx": 1156, "label": 0}
+{"word": "patch", "sentence1": "A cabbage patch.", "sentence2": "A briar patch.", "start1": 10, "start2": 8, "end1": 15, "end2": 13, "idx": 1368, "label": 1}
+{"word": "get", "sentence1": "She didn't get his name when they met the first time.", "sentence2": "The ice storm got my hibiscus.", "start1": 11, "start2": 14, "end1": 14, "end2": 17, "idx": 2964, "label": 0}
+{"word": "see", "sentence1": "You should see a lawyer.", "sentence2": "We had to see a psychiatrist.", "start1": 11, "start2": 10, "end1": 14, "end2": 13, "idx": 96, "label": 1}
+{"word": "lift", "sentence1": "Lift a ban.", "sentence2": "I lifted the books onto the table.", "start1": 0, "start2": 2, "end1": 4, "end2": 8, "idx": 5390, "label": 0}
+{"word": "mean", "sentence1": "The sky is red this morning -- does that mean we're in for a storm?", "sentence2": "I didn't mean to knock your tooth out.", "start1": 41, "start2": 9, "end1": 45, "end2": 13, "idx": 2162, "label": 0}
+{"word": "shock", "sentence1": "Whole fields of wheat in shock.", "sentence2": "It came as a shock to learn that he was injured.", "start1": 25, "start2": 13, "end1": 30, "end2": 18, "idx": 699, "label": 0}
+{"word": "undergo", "sentence1": "Undergo a strange sensation.", "sentence2": "The chemical undergoes a sudden change.", "start1": 0, "start2": 13, "end1": 7, "end2": 22, "idx": 3838, "label": 1}
+{"word": "turn", "sentence1": "Turn your face to the wall.", "sentence2": "She is turning 50 this year.", "start1": 0, "start2": 7, "end1": 4, "end2": 14, "idx": 1388, "label": 0}
+{"word": "par", "sentence1": "Par for this course is 72.", "sentence2": "He needs to make this shot for par.", "start1": 0, "start2": 31, "end1": 3, "end2": 34, "idx": 2206, "label": 1}
+{"word": "pay", "sentence1": "She had to pay the penalty for speaking out rashly.", "sentence2": "You'll pay for this opinion later.", "start1": 11, "start2": 7, "end1": 14, "end2": 10, "idx": 4563, "label": 1}
+{"word": "authority", "sentence1": "She lost all her respect and authority after turning up drunk to the meeting.", "sentence2": "Tennessee Valley Authority.", "start1": 29, "start2": 17, "end1": 38, "end2": 26, "idx": 5381, "label": 0}

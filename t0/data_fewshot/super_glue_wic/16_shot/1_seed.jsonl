@@ -1,0 +1,16 @@
+{"word": "dibs", "sentence1": "Who's got dibs on the chips?", "sentence2": "Dibs means I get the hammock.", "start1": 10, "start2": 0, "end1": 14, "end2": 4, "idx": 1375, "label": 1}
+{"word": "flood", "sentence1": "Flood the market with tennis shoes.", "sentence2": "The images flooded his mind.", "start1": 0, "start2": 11, "end1": 5, "end2": 18, "idx": 5132, "label": 0}
+{"word": "light", "sentence1": "Hey, buddy, you got a light?", "sentence2": "Can you shed light on this problem?", "start1": 22, "start2": 13, "end1": 27, "end2": 18, "idx": 763, "label": 0}
+{"word": "bear", "sentence1": "Bear a heavy load.", "sentence2": "Bear a resemblance.", "start1": 0, "start2": 0, "end1": 4, "end2": 4, "idx": 4497, "label": 0}
+{"word": "head", "sentence1": "200 head of cattle.", "sentence2": "A reduction in the assessment per head of sheep.", "start1": 4, "start2": 34, "end1": 8, "end2": 38, "idx": 1956, "label": 1}
+{"word": "forbid", "sentence1": "The rules forbid smoking.", "sentence2": "The rules forbid our smoking.", "start1": 10, "start2": 10, "end1": 16, "end2": 16, "idx": 4145, "label": 1}
+{"word": "work", "sentence1": "I will work hard to improve my grades.", "sentence2": "They worked on the task.", "start1": 7, "start2": 5, "end1": 11, "end2": 11, "idx": 1225, "label": 1}
+{"word": "drive", "sentence1": "His drive and energy exhausted his co-workers.", "sentence2": "The riverside drive offers many exciting scenic views.", "start1": 4, "start2": 14, "end1": 9, "end2": 19, "idx": 4447, "label": 0}
+{"word": "war", "sentence1": "The \"war on drugs\" is a campaign against the use of narcotic drugs.", "sentence2": "The war on poverty.", "start1": 5, "start2": 4, "end1": 8, "end2": 7, "idx": 3272, "label": 1}
+{"word": "feel", "sentence1": "I feel that he doesn't like me.", "sentence2": "I felt my way cautiously through the dangerous business maneuver.", "start1": 2, "start2": 2, "end1": 6, "end2": 6, "idx": 2704, "label": 0}
+{"word": "shoot", "sentence1": "Shoot craps.", "sentence2": "Shoot a movie.", "start1": 0, "start2": 0, "end1": 5, "end2": 5, "idx": 3724, "label": 0}
+{"word": "pay", "sentence1": "She had to pay the penalty for speaking out rashly.", "sentence2": "He paid her off the books and in kind where possible.", "start1": 11, "start2": 3, "end1": 14, "end2": 7, "idx": 4887, "label": 0}
+{"word": "make", "sentence1": "Make an effort.", "sentence2": "Make love, not war.", "start1": 0, "start2": 0, "end1": 4, "end2": 4, "idx": 4930, "label": 1}
+{"word": "echo", "sentence1": "Napoleon III was an echo of the mighty Emperor but an infinitely better man.", "sentence2": "His contention contains more than an echo of Rousseau.", "start1": 20, "start2": 37, "end1": 24, "end2": 41, "idx": 1162, "label": 1}
+{"word": "interest", "sentence1": "In the interest of safety.", "sentence2": "Victorian furniture is an interest of mine.", "start1": 7, "start2": 26, "end1": 15, "end2": 34, "idx": 116, "label": 0}
+{"word": "cover", "sentence1": "Cover her face with a handkerchief.", "sentence2": "This should cover everyone in the group.", "start1": 0, "start2": 12, "end1": 5, "end2": 17, "idx": 2064, "label": 0}

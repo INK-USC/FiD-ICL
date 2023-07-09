@@ -1,0 +1,16 @@
+{"premise": "The girl pushed her friend.", "choice1": "Her friend choked.", "choice2": "Her friend fell over.", "question": "effect", "idx": 294, "label": 1}
+{"premise": "The water in the teapot started to boil.", "choice1": "The teapot cooled.", "choice2": "The teapot whistled.", "question": "effect", "idx": 369, "label": 1}
+{"premise": "My mailbox was overflowing with letters.", "choice1": "The lid on the mailbox broke.", "choice2": "I went on vacation for two weeks.", "question": "cause", "idx": 266, "label": 1}
+{"premise": "The toddler became cranky.", "choice1": "Her mother put her down for a nap.", "choice2": "Her mother fixed her hair into pigtails.", "question": "effect", "idx": 26, "label": 0}
+{"premise": "The woman was summoned for jury duty.", "choice1": "She contacted her lawyer.", "choice2": "She cancelled her appointments.", "question": "effect", "idx": 312, "label": 1}
+{"premise": "The cup of tea was scalding hot.", "choice1": "I blew on it.", "choice2": "I poured it out.", "question": "effect", "idx": 344, "label": 0}
+{"premise": "The woman repaired her faucet.", "choice1": "The faucet was leaky.", "choice2": "The faucet was turned off.", "question": "cause", "idx": 10, "label": 0}
+{"premise": "The pharmaceutical company recalled the drug.", "choice1": "Users reported dangerous side effects.", "choice2": "Users got refills on their prescriptions.", "question": "cause", "idx": 105, "label": 0}
+{"premise": "The girl wanted to demonstrate proper etiquette.", "choice1": "She threw away her napkin after eating.", "choice2": "She put her napkin on her lap before eating.", "question": "effect", "idx": 218, "label": 1}
+{"premise": "The speaker disarmed her debate opponent.", "choice1": "The speaker congratulated her opponent.", "choice2": "The speaker won the debate.", "question": "effect", "idx": 114, "label": 1}
+{"premise": "The football coach lost his voice after the game.", "choice1": "He yelled whenever a player fumbled the ball.", "choice2": "He whistled whenever a player scored a touchdown.", "question": "cause", "idx": 308, "label": 0}
+{"premise": "The girl desired her parent's approval.", "choice1": "She ran away from home.", "choice2": "She obeyed her parent's rules.", "question": "effect", "idx": 388, "label": 1}
+{"premise": "The retail shop shut down.", "choice1": "Its sales were lagging.", "choice2": "It renewed its lease.", "question": "cause", "idx": 390, "label": 0}
+{"premise": "Air pollution in the city worsened.", "choice1": "Factories increased their production.", "choice2": "Factories shut down.", "question": "cause", "idx": 392, "label": 0}
+{"premise": "The elderly woman suffered a stroke.", "choice1": "The woman's daughter came over to clean her house.", "choice2": "The woman's daughter moved in to take care of her.", "question": "effect", "idx": 11, "label": 1}
+{"premise": "The man caught his shirtsleeve on the rungs of the fence.", "choice1": "He hopped the fence.", "choice2": "The sleeve ripped.", "question": "effect", "idx": 361, "label": 1}

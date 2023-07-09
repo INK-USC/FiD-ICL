@@ -5,6 +5,7 @@
 */eval_logs/
 */checkpoints/
 */tensorized/
+t0/data_fewshot/story_cloze/
 
 .pytest_cache
 __pycache__

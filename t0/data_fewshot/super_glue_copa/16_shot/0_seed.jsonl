@@ -1,0 +1,16 @@
+{"premise": "The ocean tide was dangerous.", "choice1": "The swimmers put on more sunscreen.", "choice2": "The swimmers returned towards the shore.", "question": "effect", "idx": 303, "label": 1}
+{"premise": "The woman complimented the man.", "choice1": "He sneezed.", "choice2": "He blushed.", "question": "effect", "idx": 309, "label": 1}
+{"premise": "The man threw his empty can onto the street.", "choice1": "He was jumped from behind.", "choice2": "He was fined for littering.", "question": "effect", "idx": 60, "label": 1}
+{"premise": "The girl was angry with her friend.", "choice1": "The girl spread a rumor about her friend.", "choice2": "The girl told a secret to her friend.", "question": "effect", "idx": 78, "label": 0}
+{"premise": "The child kicked the stack of blocks.", "choice1": "The stack towered over the boy's head.", "choice2": "The blocks scattered all over the rug.", "question": "effect", "idx": 102, "label": 1}
+{"premise": "My flight got delayed.", "choice1": "Tornadoes were sighted in the area.", "choice2": "I was held up at airport security.", "question": "cause", "idx": 196, "label": 0}
+{"premise": "The girl gasped.", "choice1": "Her friend stuck an ice cube down her back.", "choice2": "Her friend gave her a pat on the back.", "question": "cause", "idx": 15, "label": 0}
+{"premise": "The tenants were evicted from the apartment.", "choice1": "They neglected to pay their rent.", "choice2": "They got along with their landlord.", "question": "cause", "idx": 206, "label": 0}
+{"premise": "The chef pressed down on the dough.", "choice1": "The dough crumbled.", "choice2": "The dough flattened.", "question": "effect", "idx": 268, "label": 1}
+{"premise": "The man revealed personal information to the therapist.", "choice1": "He trusted the therapist.", "choice2": "He disagreed with the therapist.", "question": "cause", "idx": 261, "label": 0}
+{"premise": "The woman fanned herself with her hand.", "choice1": "She installed the air conditioner in the room.", "choice2": "The air conditioner in the room broke.", "question": "cause", "idx": 313, "label": 1}
+{"premise": "The fortune teller's revelations were convincing.", "choice1": "She received many returning customers.", "choice2": "Many customers asked for refunds.", "question": "effect", "idx": 214, "label": 0}
+{"premise": "The motorcyclist twisted the throttle.", "choice1": "The motorcycle coasted to a halt.", "choice2": "The motorcycle shot forward.", "question": "effect", "idx": 170, "label": 1}
+{"premise": "The man became disabled.", "choice1": "His family offered him financial support.", "choice2": "His family cut off contact with him.", "question": "effect", "idx": 134, "label": 0}
+{"premise": "The turtle hid in its shell.", "choice1": "It ate a fish.", "choice2": "It detected a predator.", "question": "cause", "idx": 124, "label": 1}
+{"premise": "The group overlooked the woman's faux pas.", "choice1": "The woman was relieved.", "choice2": "The woman apologized.", "question": "effect", "idx": 132, "label": 0}
