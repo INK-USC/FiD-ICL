@@ -51,7 +51,7 @@ The following script will evaluate the FiD-ICL trained from T5-LM-XL.
 ```bash
 python run_fid_eval.py -c runs/metatest/fid_t5_xl.json 
 ```
-_
+
 Similarly, use `run_icl_eval.py` and `run_ensemble_eval.py` to meta-test a model trained with Concat-ICL and Ensemble-ICL. There are sample configurations in the `runs/metatest` directory.
 
 ### Other Baselines
@@ -63,12 +63,10 @@ We include example scripts for running the baselines in this repository.
 python run_t0eval.py -c runs/metatest/t0_3b.json
 # results will be in eval_logs/t0_eval/my-t0-3b/results_t0_template.csv
 ```
-
 #### Simple FT
 ```
 python run_t0fewshot.py -c runs/metatest/ft_t0_3b.json
 ```
-
 #### T-Few FT
 The only difference in experiment setting between us and the original T-Few paper is that we control the number of shots to be 16.
 Download the T-Few repository (https://github.com/r-three/t-few); Copy and paste the data files in `t0/data_fewshot` to T-Few directory and change the data path in T-Few code.
