@@ -1,7 +1,7 @@
 ## FiD-ICL: A Fusion-in-Decoder Approach for Efficient In-Context Learning
 
 
-This repository contains code accompanying our paper "FiD-ICL: A Fusion-in-Decoder Approach for Efficient In-Context Learning" (ACL 2023) [[Paper]](https://openreview.net/forum?id=7tO_uDjYyv).
+This repository contains code accompanying our paper "FiD-ICL: A Fusion-in-Decoder Approach for Efficient In-Context Learning" (ACL 2023) [[Paper]](https://aclanthology.org/2023.acl-long.454/) [[Slides]](others/FiD-ICL-Slides.pdf) [[Poster]](others/FiD-ICL-Poster.pdf).
 
 FiD-ICL is inspired by [fusion-in-decoder models](https://github.com/facebookresearch/FiD/tree/main) designed for open-domain QA. In a meta-training setting, FiD-ICL outperforms the widely-adopted concatenation-based ICL, while being up to 10x faster at inference time. When compared to fine-tuning, the performance gap between FiD-ICL (gradient-free) and fine-tuning (gradient-based) is on average less than 3%.
 
@@ -35,7 +35,7 @@ Please check out the instructions to download the data in `t0/data_prep/README.m
 
 ### ICL Meta-Training
 
-If you only want to download the resulting model and reproduce the evaluation part, you don't need to run meta-training because model checkpoints are ported to huggingface hub. Go to [ICL Meta-Testing](#icl-meta-testing) below.
+If you only want to download the resulting model and reproduce the evaluation part, you don't need to run meta-training because model checkpoints are ported to huggingface hub. Go to [ICL Meta-Testing](#icl-meta-testing) section below to run evaluation directly.
 
 The following script will train a FiD-ICL model initializing the model with T5-LM-XL (This is the best performing ICL model in the paper).
 ```bash
