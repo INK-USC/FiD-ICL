@@ -21,3 +21,10 @@ Sometimes I just want to test my code quickly. But loading al data from `data_sm
 ```bash
 python subsample.py data_tiny 1000
 ```
+
+### Getting StoryCloze Data
+1. Get the [dataset](https://cs.rochester.edu/nlp/rocstories/) by filling out [this form](https://docs.google.com/forms/d/e/1FAIpQLSe83zPs21IGH9-HC1SuUa2hfyopJOHgTHft--Ne4SOj0VoViA/viewform?c=0&w=1). In the email you receive, download Story Cloze Test Spring 2016 set (val set + test set) as csv files.
+
+2. You should have two files: `cloze_test_test__spring2016 - cloze_test_ALL_test.csv` and `cloze_test_val__spring2016 - cloze_test_ALL_val.csv`. Place then in the `storycloze` subdirectory in this directory.
+
+3. run `python story_cloze.py` which will save the few-shot data to `data_fewshot` and the evaluation data to `data_eval`.
